@@ -1,0 +1,52 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100vw;
+    
+}
+
+.flex_container{
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   justify-content: center;
+   align-items: center;
+   max-width: 600px;
+    margin: 0 auto;
+    height: 280px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin: 0 auto;
+   position: relative;
+   top:50px;
+}
+h1{
+    font-size: 36px;
+}
+h4{
+    font-size: 20px;
+}
+button{
+    padding: 8px 15px;
+    background-color: rgb(1, 86, 233);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+input{
+    width: 300px;
+    padding: 8px;
+    border-radius:10px ;
+    width: 100%;
+    max-width: 300px;
+    
+}
+button:hover{
+    background-color: rgb(3, 128, 237);
+}
